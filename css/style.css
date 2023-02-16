@@ -19,9 +19,11 @@ section {
 }
 
 .highlight-color {
-    color: #ff900e;
+    color: #FF900E;
 }
-
+.light-color{
+    color: #727272;
+}
 .btn-primary {
     background: #ff900e;
     border: none;
@@ -66,13 +68,21 @@ section {
 .header .hero-section .hero-content h1 {
     margin-bottom: 1rem;
     font-size: 3rem;
+    font-weight: 700;
+    font-size: 4rem;
+    line-height: 4.6rem;
+    text-align: center;
+    color: #131313;
 }
 
 .header .hero-section .hero-content p {
     margin-bottom: 1rem;
+    font-weight: 400;
     font-size: 1rem;
+    line-height: 1.6rem;
+    text-align: center;
     color: #727272;
-    line-height: 1.5rem;
+
 }
 
 .header .hero-section .hero-banner img {
@@ -103,15 +113,19 @@ section {
 }
 
 .team-section .team-content h2 {
-    font-size: 2.7rem;
+    font-weight: 700;
+    font-size: 2.8rem;
+    line-height: 3.3rem;
+    color: #131313;
     margin-bottom: 1.3rem;
 }
 
 .team-section .team-content p {
     margin-bottom: 1.3rem;
+    font-weight: 400;
     font-size: 1rem;
+    line-height: 1.6rem;
     color: #727272;
-    line-height: 1.5rem;
 }
 
 /* team section styles end */
@@ -152,17 +166,21 @@ section {
 
 
 .features-section .features-content h2 {
-    margin-bottom: 1rem;
     border-left: 0.3rem solid #ff900e;
     padding-left: 0.6rem;
-    font-size: 3rem;
+    font-weight: 700;
+    font-size: 2.8rem;
+    line-height: 3.3rem;
+    color: #131313;
+    margin-bottom: 1.3rem;
 }
 
 .features-section .features-content .feature-dec {
     margin-bottom: 1.5rem;
+    font-weight: 400;
     font-size: 1rem;
+    line-height: 1.6rem;
     color: #727272;
-    line-height: 1.5rem;
 }
 
 .features-section .features-content .services .service {
@@ -180,8 +198,10 @@ section {
 
 .features-section .features-content .services .service p {
     font-size: 1rem;
-    color: #727272;
+    font-weight: 400;
+    font-size: 1rem;
     line-height: 1.6rem;
+    color: #727272;
 }
 
 /* Work History section styles start */
@@ -192,9 +212,10 @@ section {
 
 .some-facts-section p {
     margin-bottom: 4rem;
+    font-weight: 400;
     font-size: 1rem;
-    color: #727272;
     line-height: 1.6rem;
+    color: #727272;
 }
 
 .some-facts-section .facts {
@@ -315,9 +336,10 @@ section {
 }
 
 .review-section .reviews .review p {
+    font-weight: 400;
     font-size: 1rem;
+    line-height: 1.6rem;
     color: #727272;
-    line-height: 1.5rem;
 }
 
 /* Our Review Section Styles End */
