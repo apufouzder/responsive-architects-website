@@ -1,0 +1,379 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Common css */
+section {
+    padding: 4rem 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.highlight-color {
+    color: #ff900e;
+}
+
+.btn-primary {
+    background: #ff900e;
+    border: none;
+    outline: none;
+    padding: 1rem 2rem;
+    color: #FFFFFF;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+/* Header Section Styles Start */
+.header {
+    background-color: #fff4e7;
+    padding: 2rem 0;
+}
+
+.header .navbar {
+    display: flex;
+    justify-content: space-between;
+    /* padding: 2rem 0; */
+}
+
+.header .navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 4rem;
+}
+
+.header .hero-section {
+    display: flex;
+    flex-direction: column;
+    padding-top: 2.5rem;
+}
+
+.header .hero-section .hero-content {
+    text-align: center;
+    margin: 3rem 0;
+}
+
+.header .hero-section .hero-content h1 {
+    margin-bottom: 1rem;
+    font-size: 3rem;
+}
+
+.header .hero-section .hero-content p {
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    color: #727272;
+    line-height: 1.5rem;
+}
+
+.header .hero-section .hero-banner img {
+    width: 100%;
+    height: 100%;
+}
+
+/* Header Section Styles end */
+
+
+/* team section styles start */
+.team-section .wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    padding: 0 3rem;
+    gap: 4rem;
+}
+
+.team-section .team-photos {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.team-section .team-photos img {
+    width: 100%;
+}
+
+.team-section .team-content h2 {
+    font-size: 2.7rem;
+    margin-bottom: 1.3rem;
+}
+
+.team-section .team-content p {
+    margin-bottom: 1.3rem;
+    font-size: 1rem;
+    color: #727272;
+    line-height: 1.5rem;
+}
+
+/* team section styles end */
+
+
+/* Features section styles start */
+.features-section .wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 7rem;
+}
+
+.features-section .features-img {
+    position: relative;
+}
+
+.features-section .features-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.features-section .features-img .experience {
+    background: #ff900e;
+    padding: 2rem;
+    width: 14rem;
+    border-radius: 0.4rem;
+    text-align: center;
+    color: #FFFFFF;
+    position: absolute;
+    bottom: -3rem;
+    left: -4rem;
+}
+
+.features-section .features-img .experience h2 {
+    font-size: 2.5rem;
+    margin-bottom: 0.3rem;
+}
+
+
+.features-section .features-content h2 {
+    margin-bottom: 1rem;
+    border-left: 0.3rem solid #ff900e;
+    padding-left: 0.6rem;
+    font-size: 3rem;
+}
+
+.features-section .features-content .feature-dec {
+    margin-bottom: 1.5rem;
+    font-size: 1rem;
+    color: #727272;
+    line-height: 1.5rem;
+}
+
+.features-section .features-content .services .service {
+    padding: 1rem;
+    box-shadow: 0px 1px 10px 0px rgb(0 0 0 / 10%);
+    margin-bottom: 1rem;
+    border-radius: 0.3rem;
+}
+
+.features-section .features-content .services .service h5 {
+    margin-bottom: 0.8rem;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+.features-section .features-content .services .service p {
+    font-size: 1rem;
+    color: #727272;
+    line-height: 1.6rem;
+}
+
+/* Work History section styles start */
+.some-facts-section h2 {
+    margin-bottom: 1rem;
+    font-size: 2rem;
+}
+
+.some-facts-section p {
+    margin-bottom: 4rem;
+    font-size: 1rem;
+    color: #727272;
+    line-height: 1.6rem;
+}
+
+.some-facts-section .facts {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+    text-align: center;
+    padding: 0 1rem 0 4rem;
+}
+
+.some-facts-section .facts .fact {
+    border: 1px solid #ff900e;
+    padding: 2rem;
+    line-height: 2rem;
+    border-radius: 0.5rem;
+    position: relative;
+    transition: 0.3s linear;
+}
+
+.some-facts-section .facts .fact:hover {
+    transform: translateY(-0.5rem);
+    cursor: pointer;
+}
+
+.some-facts-section .facts .fact::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: #ff900e;
+    z-index: -1;
+    clip-path: circle(0rem at 5% 0%);
+    transition: 0.3s linear;
+}
+
+.some-facts-section .facts .fact:hover::before {
+    clip-path: circle(100%);
+    color: #FFFFFF;
+    opacity: 0.2;
+}
+
+
+.some-facts-section .facts .fact h3 {
+    font-size: 2rem;
+    color: #424242
+}
+
+.some-facts-section .facts .fact strong {
+    font-size: 0.9rem;
+    color: #727272;
+    font-weight: 600;
+}
+
+/* Work History section styles End */
+
+
+/* Sponsors section styles start */
+.sponsors-section h2 {
+    margin-bottom: 1rem;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.sponsors-section p {
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+.sponsors-section .sponsors {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    align-items: center;
+    gap: 2rem;
+}
+
+.sponsors-section .sponsors .sponsor img {
+    filter: invert(1) brightness(0.5) contrast(0.1);
+}
+
+/* Sponsors section styles End */
+
+
+/* Our Review Section Styles Start */
+.review-section h2 {
+    text-align: center;
+    margin-bottom: 3rem;
+    font-size: 2rem;
+}
+
+.review-section .reviews {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
+
+.review-section .reviews .review {
+    box-shadow: 0px 1px 10px 0px rgb(0 0 0 / 10%);
+    border-radius: 0.5rem;
+    padding: 1rem;
+    text-align: center;
+}
+
+.review-section .reviews .review img {
+    width: 4rem;
+    border-radius: 50%;
+    margin-bottom: 0.3rem;
+}
+
+.review-section .reviews .review h4 {
+    margin-bottom: 0.8rem;
+}
+
+.review-section .reviews .review p {
+    font-size: 1rem;
+    color: #727272;
+    line-height: 1.5rem;
+}
+
+/* Our Review Section Styles End */
+
+
+/* Footer section styles start */
+.footer .content {
+    background: #fff4e7;
+    padding: 2rem;
+    text-align: center;
+    border-radius: 0.5rem;
+    color: #727272;
+}
+
+/* Footer section styles end */
+
+
+/* Media query for responsive mobile device */
+@media screen and (max-width: 576px) {
+    .header .navbar ul {
+        gap: 1rem;
+        flex-direction: column;
+    }
+
+    .header .hero-section {
+        flex-direction: column-reverse;
+    }
+
+    .team-section .wrapper {
+        grid-template-columns: repeat(1, 1fr);
+        padding: 0;
+    }
+
+    .team-section .team-photos,
+    .review-section .reviews {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .features-section .wrapper {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 2rem;
+    }
+
+    .features-section .features-img .experience {
+        left: -2rem;
+    }
+
+    .some-facts-section .facts {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 1rem;
+        padding: 0;
+    }
+
+    .sponsors-section .sponsors {
+        grid-template-columns: repeat(1, 1fr);
+        text-align: center;
+    }
+}
+
+/* @media screen and (min-width: 577px) and (max-width: 992px){
+    
+} */
