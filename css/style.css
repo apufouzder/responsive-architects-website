@@ -265,6 +265,9 @@ section {
 .sponsors-section p {
     margin-bottom: 3rem;
     text-align: center;
+    font-size: 1rem;
+    color: #727272;
+    line-height: 1.6rem;
 }
 
 .sponsors-section .sponsors {
