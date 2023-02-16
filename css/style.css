@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Work+Sans:wght@300;600;700&display=swap');
+
 * {
     padding: 0;
     margin: 0;
@@ -5,7 +7,7 @@
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Work Sans', sans-serif;
 }
 
 /* Common css */
@@ -21,9 +23,11 @@ section {
 .highlight-color {
     color: #FF900E;
 }
-.light-color{
+
+.light-color {
     color: #727272;
 }
+
 .btn-primary {
     background: #ff900e;
     border: none;
@@ -52,6 +56,11 @@ section {
     list-style: none;
     display: flex;
     gap: 4rem;
+}
+.header .navbar ul li{
+    color: #424242;
+    font-weight: 500;
+    font-size: 1.1rem;
 }
 
 .header .hero-section {
@@ -89,7 +98,6 @@ section {
     width: 100%;
     height: 100%;
 }
-
 /* Header Section Styles end */
 
 
@@ -163,7 +171,6 @@ section {
     font-size: 2.5rem;
     margin-bottom: 0.3rem;
 }
-
 
 .features-section .features-content h2 {
     border-left: 0.3rem solid #ff900e;
